@@ -39,7 +39,7 @@
 		</classes>
 	</test>
 	
-	<test name="Add_Item Master Basic Detail - Entry">
+	<test name="Add_PO Maintenance New">
 		<classes>
 			<class name="com.SourcePro.Purchase.POMaintenanceNew.POMaintenanceNewIndex">
 				<methods>
