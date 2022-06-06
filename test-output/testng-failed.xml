@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Smoke]">
+  <parameter name="ExecutionByXML" value="false"/>
+  <parameter name="URL" value="http://192.168.0.147:8074/"/>
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.SourcePro.Utility.CustomDetailReporter"/>
+    <listener class-name="com.SourcePro.Utility.CustomReporterBuildSummary"/>
+    <listener class-name="com.SourcePro.Utility.CustomReporter"/>
+  </listeners>
+  <test verbose="0" name="Login_Do Login(failed)">
+    <classes>
+      <class name="com.SourcePro.Login.LoginIndex">
+        <methods>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuite"/>
+          <include name="postConfigue"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.SourcePro.Login.LoginIndex -->
+    </classes>
+  </test> <!-- Login_Do Login(failed) -->
+  <test verbose="0" name="Add_Item Master Basic Detail - Entry(failed)">
+    <classes>
+      <class name="com.SourcePro.Materials.ItemMasterBasicDetailEntry.ItemMasterBasicDetailEntryIndex">
+        <methods>
+          <include name="ItemMasterBasicDetailEntryAdd"/>
+          <include name="tearDown"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuite"/>
+          <include name="postConfigue"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.SourcePro.Materials.ItemMasterBasicDetailEntry.ItemMasterBasicDetailEntryIndex -->
+    </classes>
+  </test> <!-- Add_Item Master Basic Detail - Entry(failed) -->
+  <test verbose="0" name="Logout_Logout(failed)">
+    <classes>
+      <class name="com.SourcePro.Login.LoginIndex">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logout"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuite"/>
+          <include name="postConfigue"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.SourcePro.Login.LoginIndex -->
+    </classes>
+  </test> <!-- Logout_Logout(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

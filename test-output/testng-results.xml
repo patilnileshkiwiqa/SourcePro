@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Open URL : http://192.168.0.147:8074/</br>]]>
+    </line>
+    <line>
+      <![CDATA[Do login with valid email and password.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Do login with valid username and password.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Entered Connection String: Server=PC43\\SQLEXPRESS;Database=NH1QCCybAdmin280422;uid=sa;pwd=;Max Pool Size=1000;Connection TimeOut= 3000;</br>]]>
+    </line>
+    <line>
+      <![CDATA[Entered Email: super</br>]]>
+    </line>
+    <line>
+      <![CDATA[Entered Password: Name@642</br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Company.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Selected Company: SourcePro Infotech Pvt Ltd</br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Location.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Selected Location: CTPL Unit2</br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on right arrow icon.</br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Smoke" duration-ms="16956" started-at="2022-06-06T10:23:05Z" finished-at="2022-06-06T10:23:22Z">
+    <groups>
+    </groups>
+    <test name="Login_Do Login" duration-ms="16956" started-at="2022-06-06T10:23:05Z" finished-at="2022-06-06T10:23:22Z">
+      <class name="com.SourcePro.Login.LoginIndex">
+        <test-method status="PASS" signature="fetchSuite(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.SourcePro.Login.LoginIndex@3532ec19]" name="fetchSuite" is-config="true" duration-ms="6713" started-at="2022-06-06T15:52:58Z" finished-at="2022-06-06T15:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.147:8074/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e77f0f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuite -->
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.SourcePro.Login.LoginIndex@3532ec19]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2022-06-06T15:53:05Z" finished-at="2022-06-06T15:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e77f0f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.SourcePro.Login.LoginIndex@3532ec19]" name="setUp" is-config="true" duration-ms="274" started-at="2022-06-06T15:53:05Z" finished-at="2022-06-06T15:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SourcePro.Login.LoginIndex.login() throws java.io.IOException,java.awt.AWTException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e77f0f4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginIndex.login()[pri:0, instance:com.SourcePro.Login.LoginIndex@3532ec19] output=Open URL : http://192.168.0.147:8074/</br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.SourcePro.Login.LoginIndex@3532ec19]" name="login" duration-ms="16670" started-at="2022-06-06T15:53:05Z" finished-at="2022-06-06T15:53:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Open URL : http://192.168.0.147:8074/</br>]]>
+            </line>
+            <line>
+              <![CDATA[Do login with valid email and password.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Do login with valid username and password.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Entered Connection String: Server=PC43\\SQLEXPRESS;Database=NH1QCCybAdmin280422;uid=sa;pwd=;Max Pool Size=1000;Connection TimeOut= 3000;</br>]]>
+            </line>
+            <line>
+              <![CDATA[Entered Email: super</br>]]>
+            </line>
+            <line>
+              <![CDATA[Entered Password: Name@642</br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Company.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Selected Company: SourcePro Infotech Pvt Ltd</br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Location.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Selected Location: CTPL Unit2</br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on right arrow icon.</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.SourcePro.Login.LoginIndex@3532ec19]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-06-06T15:53:22Z" finished-at="2022-06-06T15:53:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginIndex.login()[pri:0, instance:com.SourcePro.Login.LoginIndex@3532ec19] output=Open URL : http://192.168.0.147:8074/</br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e77f0f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="postConfigue()[pri:0, instance:com.SourcePro.Login.LoginIndex@3532ec19]" name="postConfigue" is-config="true" duration-ms="78" started-at="2022-06-06T15:53:22Z" finished-at="2022-06-06T15:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfigue -->
+      </class> <!-- com.SourcePro.Login.LoginIndex -->
+    </test> <!-- Login_Do Login -->
+  </suite> <!-- Smoke -->
+</testng-results>
