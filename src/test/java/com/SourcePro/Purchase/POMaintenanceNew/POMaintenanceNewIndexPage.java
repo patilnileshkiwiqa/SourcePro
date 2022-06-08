@@ -194,10 +194,11 @@ public class POMaintenanceNewIndexPage extends AbstractPage {
 	WebElement add_WarehouseCode_1_POMaintenanceNew;
 	
 	public POMaintenanceNewVerification add_WarehouseCode_1_POMaintenanceNew(String value) {
+		Common.pause(1);
 		Common.clickableElement(add_WarehouseCode_1_POMaintenanceNew, driver);
 		Common.clickOn(driver, add_WarehouseCode_1_POMaintenanceNew);
 		
-		Common.pause(2);
+		Common.pause(5);
 		String xpath = "//span[text()='" + value + "']";
 		
 		Common.clickOn(driver, driver.findElement(By.xpath(xpath)));
