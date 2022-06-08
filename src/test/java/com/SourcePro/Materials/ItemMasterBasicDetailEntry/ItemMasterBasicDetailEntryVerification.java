@@ -18,6 +18,7 @@ public class ItemMasterBasicDetailEntryVerification extends AbstractPage {
 
 	public boolean verifyTableLoad() {
 
+		Common.pause(5);
 		String xpath = "//i[@class='icon-pencil']";
 		Common.PresenceOfElement(By.xpath(xpath), driver);
 		return !driver.findElements(By.xpath(xpath)).isEmpty();

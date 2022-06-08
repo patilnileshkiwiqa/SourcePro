@@ -24,6 +24,7 @@ public class CommonMethodsIndexPage extends AbstractPage {
 	}
 
 	public CommonMethodsVerification clickOnMenuWithChild(String menu) {
+		Common.pause(5);
 		String xpath = "//a[text()='"+menu+"']";
 		
 		Common.pause(1);

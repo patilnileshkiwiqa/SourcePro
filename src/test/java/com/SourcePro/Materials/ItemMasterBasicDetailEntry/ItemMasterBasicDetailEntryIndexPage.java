@@ -150,6 +150,7 @@ public class ItemMasterBasicDetailEntryIndexPage extends AbstractPage {
 	
 	public ItemMasterBasicDetailEntryVerification addSaveBtn_NewItemMasterBasicDetailEntry() {
 		
+		Common.pause(5);
 		Common.clickableElement(addSaveBtn_NewItemMasterBasicDetailEntry, driver);
 		Common.jsClick(driver, addSaveBtn_NewItemMasterBasicDetailEntry);
 		return new ItemMasterBasicDetailEntryVerification(driver);
