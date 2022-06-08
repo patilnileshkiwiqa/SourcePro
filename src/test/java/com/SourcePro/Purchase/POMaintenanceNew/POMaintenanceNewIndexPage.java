@@ -141,6 +141,8 @@ public class POMaintenanceNewIndexPage extends AbstractPage {
 
 	public POMaintenanceNewVerification nextBtn_2_POMaintenanceNew() {
 
+		Common.pause(3);
+		Common.mouseHover(driver, nextBtn_2_POMaintenanceNew);
 		Common.clickableElement(nextBtn_2_POMaintenanceNew, driver);
 		Common.clickOn(driver, nextBtn_2_POMaintenanceNew);
 		return new POMaintenanceNewVerification(driver);
