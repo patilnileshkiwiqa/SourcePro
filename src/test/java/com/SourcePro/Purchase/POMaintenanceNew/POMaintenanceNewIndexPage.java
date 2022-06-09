@@ -126,6 +126,7 @@ public class POMaintenanceNewIndexPage extends AbstractPage {
 	WebElement select_Buyer_POMaintenanceNew;
 
 	public POMaintenanceNewVerification select_Buyer_POMaintenanceNew(String value) {
+		Common.scrollUpToElement(driver, select_Buyer_POMaintenanceNew);
 		Common.clickableElement(select_Buyer_POMaintenanceNew, driver);
 		Common.type(select_Buyer_POMaintenanceNew, value);
 
