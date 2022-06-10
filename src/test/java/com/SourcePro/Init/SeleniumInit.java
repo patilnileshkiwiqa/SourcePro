@@ -327,7 +327,8 @@ public class SeleniumInit{
 				if(testResult.getStatus()==ITestResult.FAILURE)
 				{ 
 					System.out.println("1 message from tear down");
-					log("Please look to the screenshot :- "+ Common.makeScreenshot(driver, screenshotName));
+//					log("Please look to the screenshot :- "+ Common.makeScreenshot(driver, screenshotName));
+					Common.makeScreenshot2(driver, screenshotName);
 		        }
 			}
 		}catch (Throwable throwable)
