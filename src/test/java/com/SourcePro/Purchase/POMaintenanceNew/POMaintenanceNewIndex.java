@@ -242,18 +242,9 @@ public class POMaintenanceNewIndex extends SeleniumInit {
 			numOfFailure++;
 		}  
 
-
-
-
+		if (numOfFailure > 0) {
+			Assert.assertTrue(false);
+		} 
 		
-		
-		
-
-		
-		
-
-
-
-
 	}
 }
